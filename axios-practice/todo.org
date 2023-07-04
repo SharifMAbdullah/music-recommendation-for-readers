@@ -1,0 +1,28 @@
+* Learn Axios
+<2023-07-05 বুধ>
+- [ ] Get Post Put Delete Patch normal JSON using axios
+- [ ] Transfer Image
+- [ ] Transfer Audio
+- [ ] Transfer File
+* Learning ExpressJS
+<2023-07-05 বুধ>
+- [ ] Create express endpoint
+- [ ] Receieve GET POST PUT DELETE PATCH requests
+- [ ] Receive image
+- [ ] Receive audio
+- [ ] Receive File
+
+* Practice
+<2023-07-05 বুধ>
+- [ ] Connect different parts
+- [ ] Add frontend to music recommedation system
+
+* Learn API Design Patterns
+<2023-07-07 শুক্র>
+- [ ] List them from the workshop
+- [ ] Recreate each problem
+- [ ] Implement solution
+* Microservice Architecture
+<2023-07-08 শনি>
+- [ ] List microservice elements from the workshop (e.g. Load Balancer, Proxy Server, Caching)
+- [ ] List Design patterns in microservice
