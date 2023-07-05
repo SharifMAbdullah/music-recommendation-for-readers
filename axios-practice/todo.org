@@ -1,6 +1,6 @@
 * Learn Axios
 <2023-07-05 বুধ>
-- [ ] Get Post Put Delete Patch normal JSON using axios
+- [X] Get Post Put Delete Patch normal JSON using axios
 - [ ] Transfer Image
 - [ ] Transfer Audio
 - [ ] Transfer File
