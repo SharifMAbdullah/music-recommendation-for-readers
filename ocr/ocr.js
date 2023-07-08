@@ -3,9 +3,9 @@ var FormData = require('form-data');
 const fs = require('fs');
 const constants = require("./CONSTANTS.js")
 
-function getTextFromImage(){
+async function getTextFromImage(imageFilePath){
     
-    const imageBuffer = fs.readFileSync('eng.png');
+    const imageBuffer = fs.readFileSync(imageFilePath);
     const data = new FormData();
     data.append('url', imageBuffer, 'eng.png');
     data.append('language', 'eng');
@@ -15,18 +15,12 @@ function getTextFromImage(){
     data.append("apikey", constants.API_KEY_OCR_SPACE)
 
 // Make a POST request with Axios
-axios.post('https://api.ocr.space/parse/image', data, {
+    const response = await axios.post('https://api.ocr.space/parse/image', data, {
   headers: {
     'Content-Type': 'multipart/form-data',
   },
-})
-  .then(response => {
-    console.log(response.data.ParsedResults[0].ParsedText)
-  })
-  .catch(error => {
-    console.error('Error');
-    console.error(error);
-  });
+    })
+    return response.data.ParsedResults[0].ParsedText;
 }
 
 function uploadImage(){

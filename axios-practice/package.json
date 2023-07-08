@@ -1,16 +1,14 @@
 {
-  "name": "sus",
+  "name": "axios-practice",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "just practicing axios",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.4.0",
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.1"
+    "axios": "^1.4.0"
   }
 }
